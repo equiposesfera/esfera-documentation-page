@@ -18,8 +18,8 @@ const navItems = [
       { href: "/docs/primeros-pasos/verificacion", label: "Verificación de email" },
       { href: "/docs/primeros-pasos/suscripcion", label: "Suscripción" },
       { href: "/docs/primeros-pasos/olvido-contrasena", label: "Olvido de contraseña" },
-      { href: "/docs/empresa/datos-basicos", label: "Crear tu empresa" },
-      { href: "/docs/proyecto/crear", label: "Crear tu primer proyecto" },
+      { href: "/docs/primeros-pasos/crear-empresa", label: "Crear tu empresa" },
+      { href: "/docs/primeros-pasos/crear-primer-proyecto", label: "Crear tu primer proyecto" },
     ]
   },
   { 
