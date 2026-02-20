@@ -63,17 +63,30 @@ export default function SuscripcionPage() {
         <h3 className="text-2xl font-semibold text-[#2d2d2d]" style={{ fontFamily: "var(--font-display)" }}>
           Características de cada plan
         </h3>
+        <p className="text-base leading-7 text-gray-700 mb-4">
+          Todos los planes incluyen acceso a todas las funcionalidades de ESFERA. Lo que diferencia a cada plan es la capacidad de usuarios, almacenamiento de datos y límite de presupuesto del proyecto.
+        </p>
         <div className="grid gap-4 md:grid-cols-3">
           <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
             <h4 className="mb-3 text-lg font-semibold text-[#2d2d2d]">Plan Emprendedor</h4>
             <p className="mb-4 text-xs font-semibold text-[#4db8a8] uppercase">Para empezar</p>
-            <ul className="list-inside list-disc space-y-2 text-sm text-gray-700">
-              <li>Gestión de proyectos</li>
-              <li>Control de almacén</li>
-              <li>Módulo de compras</li>
-              <li>Reportes básicos</li>
-              <li>Soporte estándar</li>
-            </ul>
+            <div className="space-y-4">
+              <div className="rounded-lg border border-gray-200 bg-gray-50 p-3">
+                <p className="text-xs font-semibold text-gray-600 uppercase">Usuarios simultáneos</p>
+                <p className="mt-1 text-2xl font-bold text-[#2d2d2d]">8</p>
+                <p className="mt-1 text-xs text-gray-600">usuarios activos</p>
+              </div>
+              <div className="rounded-lg border border-gray-200 bg-gray-50 p-3">
+                <p className="text-xs font-semibold text-gray-600 uppercase">Almacenamiento</p>
+                <p className="mt-1 text-2xl font-bold text-[#2d2d2d]">100 MB</p>
+                <p className="mt-1 text-xs text-gray-600">para datos y documentos</p>
+              </div>
+              <div className="rounded-lg border border-gray-200 bg-gray-50 p-3">
+                <p className="text-xs font-semibold text-gray-600 uppercase">Presupuesto máximo</p>
+                <p className="mt-1 text-2xl font-bold text-[#2d2d2d]">$500K</p>
+                <p className="mt-1 text-xs text-gray-600">por proyecto</p>
+              </div>
+            </div>
           </div>
           <div className="rounded-2xl border-2 border-[#4db8a8] bg-[#d4f1eb] p-6 shadow-sm">
             <div className="mb-2 inline-block rounded-full bg-[#4db8a8] px-3 py-1 text-xs font-semibold text-white">
@@ -81,26 +94,44 @@ export default function SuscripcionPage() {
             </div>
             <h4 className="mb-3 text-lg font-semibold text-[#2d2d2d]">Plan Constructor</h4>
             <p className="mb-4 text-xs font-semibold text-[#4db8a8] uppercase">Recomendado</p>
-            <ul className="list-inside list-disc space-y-2 text-sm text-gray-700">
-              <li>Todas las del Plan Básico</li>
-              <li>Análisis de precios unitarios</li>
-              <li>Gestión de cartera</li>
-              <li>Reportes avanzados</li>
-              <li>Integración de APIs</li>
-              <li>Soporte prioritario</li>
-            </ul>
+            <div className="space-y-4">
+              <div className="rounded-lg border border-[#4db8a8] bg-white p-3">
+                <p className="text-xs font-semibold text-[#4db8a8] uppercase">Usuarios simultáneos</p>
+                <p className="mt-1 text-2xl font-bold text-[#2d2d2d]">12</p>
+                <p className="mt-1 text-xs text-gray-600">usuarios activos</p>
+              </div>
+              <div className="rounded-lg border border-[#4db8a8] bg-white p-3">
+                <p className="text-xs font-semibold text-[#4db8a8] uppercase">Almacenamiento</p>
+                <p className="mt-1 text-2xl font-bold text-[#2d2d2d]">1 GB</p>
+                <p className="mt-1 text-xs text-gray-600">para datos y documentos</p>
+              </div>
+              <div className="rounded-lg border border-[#4db8a8] bg-white p-3">
+                <p className="text-xs font-semibold text-[#4db8a8] uppercase">Presupuesto máximo</p>
+                <p className="mt-1 text-2xl font-bold text-[#2d2d2d]">$2M</p>
+                <p className="mt-1 text-xs text-gray-600">por proyecto</p>
+              </div>
+            </div>
           </div>
           <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
             <h4 className="mb-3 text-lg font-semibold text-[#2d2d2d]">Plan Empresarial</h4>
             <p className="mb-4 text-xs font-semibold text-[#4db8a8] uppercase">Para grandes proyectos</p>
-            <ul className="list-inside list-disc space-y-2 text-sm text-gray-700">
-              <li>Todas las funcionalidades</li>
-              <li>Análisis avanzado de datos</li>
-              <li>Usuarios ilimitados</li>
-              <li>Reportes personalizados</li>
-              <li>Sincronización en tiempo real</li>
-              <li>Soporte dedicado 24/7</li>
-            </ul>
+            <div className="space-y-4">
+              <div className="rounded-lg border border-gray-200 bg-gray-50 p-3">
+                <p className="text-xs font-semibold text-gray-600 uppercase">Usuarios simultáneos</p>
+                <p className="mt-1 text-2xl font-bold text-[#2d2d2d]">16</p>
+                <p className="mt-1 text-xs text-gray-600">usuarios ilimitados</p>
+              </div>
+              <div className="rounded-lg border border-gray-200 bg-gray-50 p-3">
+                <p className="text-xs font-semibold text-gray-600 uppercase">Almacenamiento</p>
+                <p className="mt-1 text-2xl font-bold text-[#2d2d2d]">10 GB</p>
+                <p className="mt-1 text-xs text-gray-600">para datos y documentos</p>
+              </div>
+              <div className="rounded-lg border border-gray-200 bg-gray-50 p-3">
+                <p className="text-xs font-semibold text-gray-600 uppercase">Presupuesto máximo</p>
+                <p className="mt-1 text-2xl font-bold text-[#2d2d2d]">Ilimitado</p>
+                <p className="mt-1 text-xs text-gray-600">sin restricciones</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -144,15 +175,15 @@ export default function SuscripcionPage() {
         <div className="space-y-2 text-sm text-gray-700">
           <p className="flex items-center gap-2">
             <span className="inline-block h-2 w-2 rounded-full bg-[#4db8a8]"></span>
-            <strong>Proyecto 1 (Casa):</strong> Plan Profesional
+            <strong>Proyecto 1 (Casa):</strong> Plan Constructor
           </p>
           <p className="flex items-center gap-2">
             <span className="inline-block h-2 w-2 rounded-full bg-[#4db8a8]"></span>
-            <strong>Proyecto 2 (Edificio):</strong> Plan Empresarial
+            <strong>Proyecto 2 (Edificio):</strong> Plan Emprendedor
           </p>
           <p className="flex items-center gap-2">
             <span className="inline-block h-2 w-2 rounded-full bg-[#4db8a8]"></span>
-            <strong>Proyecto 3 (Reforma):</strong> Plan Básico
+            <strong>Proyecto 3 (Reforma):</strong> Plan Empresarial
           </p>
         </div>
         <p className="mt-3 text-sm text-gray-700">
