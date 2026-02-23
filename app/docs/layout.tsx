@@ -46,10 +46,19 @@ const navItems = [
     ]
   },
   {
+    href: "/docs/presupuesto",
+    label: "Presupuesto",
+    subItems: [
+      { href: "/docs/presupuesto/presupuesto", label: "Presupuesto" },
+      { href: "/docs/presupuesto/computo", label: "Computo" },
+      { href: "/docs/presupuesto/ejecucion", label: "Ejecucion" },
+      { href: "/docs/presupuesto/cronograma", label: "Cronograma" },
+    ]
+  },
+  {
     href: "/docs/obra",
     label: "Obra",
     subItems: [
-      { href: "/docs/obra/presupuesto", label: "Presupuesto" },
       { href: "/docs/obra/avances", label: "Avances" },
       { href: "/docs/obra/planillas", label: "Planillas" },
       { href: "/docs/obra/retenciones", label: "Retenciones" },
