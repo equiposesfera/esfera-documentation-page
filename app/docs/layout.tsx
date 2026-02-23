@@ -72,7 +72,11 @@ const navItems = [
       { href: "/docs/almacen/stock", label: "Stock" },
     ]
   },
-  
+  {
+    href: "/docs/recursos-visuales",
+    label: "Recursos visuales",
+    subItems: []
+  },
   {    href: "/docs/cartera",
     label: "Cartera",
     subItems: [
