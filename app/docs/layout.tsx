@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
+import styles from "./layout.module.css";
 
 const navItems = [
   { 
@@ -72,11 +73,6 @@ const navItems = [
       { href: "/docs/almacen/stock", label: "Stock" },
     ]
   },
-  {
-    href: "/docs/recursos-visuales",
-    label: "Recursos visuales",
-    subItems: []
-  },
   {    href: "/docs/cartera",
     label: "Cartera",
     subItems: [
@@ -85,6 +81,11 @@ const navItems = [
       { href: "/docs/cartera/ventas", label: "Ventas" },
       { href: "/docs/cartera/galeria", label: "Galeria" },
     ]
+  },
+  {
+    href: "/docs/recursos-visuales",
+    label: "Recursos visuales",
+    subItems: []
   },
   { 
     href: "/docs/faq", 
@@ -139,7 +140,7 @@ export default function DocsLayout({
               <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#4db8a8]">
                 Secciones
               </p>
-              <nav className="mt-8">
+              <nav className={`mt-8 max-h-[calc(100vh-300px)] overflow-hidden group ${styles.scrollableNav}`}>
                 <ul className="space-y-4">
                   {navItems.map((item) => (
                     <li key={item.href}>
