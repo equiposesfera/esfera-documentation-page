@@ -47,8 +47,8 @@ const navItems = [
     href: "/docs/presupuesto",
     label: "Presupuesto",
     subItems: [
-      { href: "/docs/presupuesto/presupuesto", label: "Presupuesto" },
       { href: "/docs/presupuesto/computo", label: "Cómputo" },
+      { href: "/docs/presupuesto/presupuesto", label: "Presupuesto" },
       { href: "/docs/presupuesto/ejecucion", label: "Ejecución" },
       { href: "/docs/presupuesto/cronograma", label: "Cronograma" },
     ]
