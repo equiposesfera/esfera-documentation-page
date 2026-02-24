@@ -31,6 +31,15 @@ const navItems = [
     ]
   },
   {
+    href: "/docs/personas",
+    label: "Personas",
+    subItems: [
+      { href: "/docs/personas/comitentes", label: "Comitentes" },
+      { href: "/docs/personas/contratistas", label: "Contratistas" },
+      { href: "/docs/personas/proveedores", label: "Proveedores" },
+    ]
+  },
+  {
     href: "/docs/analisis-precio-unitario",
     label: "Analisis de precio unitario",
     subItems: [
