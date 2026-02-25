@@ -3,6 +3,10 @@ FROM node:24-alpine AS builder
 
 WORKDIR /app
 
+# Accept base path as build argument
+ARG NEXT_PUBLIC_BASE_PATH=""
+ENV NEXT_PUBLIC_BASE_PATH=${NEXT_PUBLIC_BASE_PATH}
+
 # Copy package files
 COPY package*.json ./
 
