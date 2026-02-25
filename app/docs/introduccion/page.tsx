@@ -68,7 +68,7 @@ export default function IntroduccionPage() {
           </Link>
 
           {/* Opción 2: Video Tutorial */}
-          <Link href="../flujo-trabajo">
+          <Link href="/docs/flujo-trabajo">
             <div className="relative h-full rounded-2xl border-2 border-[#4db8a8] bg-gradient-to-br from-[#4db8a8] to-[#3a9688] p-8 cursor-pointer hover:shadow-2xl hover:scale-105 transition-all duration-300 flex flex-col justify-between shadow-lg">
               <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#2d2d2d] text-white text-xs font-bold uppercase tracking-wider px-4 py-1 rounded-full">
                 Recomendado

@@ -32,6 +32,7 @@ RUN npm ci --omit=dev
 # Copy built application from builder
 COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/public ./public
+COPY --from=builder /app/next.config.ts ./
 
 # Create a non-root user for security
 RUN addgroup -g 1001 -S nodejs && adduser -S nextjs -u 1001
@@ -43,9 +44,8 @@ EXPOSE 10100
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
-  CMD node -e "require('http').get('http://localhost:3000', (res) => {if (res.statusCode !== 200) throw new Error(res.statusCode)})"
+  CMD node -e "require('http').get('http://localhost:10100', (res) => {if (res.statusCode !== 200) throw new Error(res.statusCode)})"
 
-# Use dumb-init to run Node.js
+# Use dumb-init to run Node.js and start Next.js on the correct port
 ENTRYPOINT ["dumb-init", "--"]
-
-CMD ["npm", "start"]
+CMD ["node_modules/.bin/next", "start", "-p", "10100"]
