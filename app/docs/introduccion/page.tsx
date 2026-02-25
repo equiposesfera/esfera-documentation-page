@@ -1,15 +1,6 @@
-"use client";
-
-import { useState } from "react";
 import Link from "next/link";
 
-interface Video {
-  title: string;
-  videoId: string;
-}
-
 export default function IntroduccionPage() {
-  const [selectedVideo, setSelectedVideo] = useState<Video | null>(null);
   return (
     <div className="space-y-8">
       <div className="flex flex-wrap items-center gap-3 text-xs font-semibold uppercase tracking-[0.3em] text-gray-500">
@@ -77,22 +68,24 @@ export default function IntroduccionPage() {
           </Link>
 
           {/* Opción 2: Video Tutorial */}
-          <button
-            onClick={() => setSelectedVideo({ title: "Ve nuestro videotutorial", videoId: "mZIimzmA8Pc" })}
-            className="h-full rounded-2xl border border-gray-200 bg-gradient-to-br from-[#d4f1eb] to-[#e8f5f1] p-8 cursor-pointer hover:shadow-lg transition flex flex-col justify-between text-left"
-          >
-            <div className="mb-6 flex items-center justify-center">
-              <div className="rounded-full bg-[#4db8a8] p-4 hover:bg-[#3a9a8b] transition">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M8 5v14l11-7z" />
-                </svg>
+          <Link href="../flujo-trabajo">
+            <div className="relative h-full rounded-2xl border-2 border-[#4db8a8] bg-gradient-to-br from-[#4db8a8] to-[#3a9688] p-8 cursor-pointer hover:shadow-2xl hover:scale-105 transition-all duration-300 flex flex-col justify-between shadow-lg">
+              <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#2d2d2d] text-white text-xs font-bold uppercase tracking-wider px-4 py-1 rounded-full">
+                Recomendado
+              </div>
+              <div className="mb-6 flex items-center justify-center">
+                <div className="rounded-full bg-white p-4 hover:scale-110 transition-transform">
+                  <svg className="w-8 h-8 text-[#4db8a8]" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </div>
+              </div>
+              <div>
+                <p className="font-semibold text-white text-center text-lg">Flujo de trabajo</p>
+                <p className="mt-3 text-sm text-white/90 text-center">Aprende a usar Esfera.AI en 7 minutos</p>
               </div>
             </div>
-            <div>
-              <p className="font-semibold text-[#2d2d2d] text-center">Ve nuestro videotutorial</p>
-              <p className="mt-3 text-sm text-gray-600 text-center">Aprende a usar Esfera.AI en 5 minutos</p>
-            </div>
-          </button>
+          </Link>
 
           {/* Opción 3: FAQ */}
           <Link href="./faq">
@@ -112,39 +105,6 @@ export default function IntroduccionPage() {
           </Link>
         </div>
       </div>
-
-      {/* Video Modal */}
-      {selectedVideo && (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4"
-          onClick={() => setSelectedVideo(null)}
-        >
-          <div
-            className="relative w-full max-w-4xl bg-black rounded-lg overflow-hidden"
-            style={{ aspectRatio: "16/9" }}
-            onClick={(e) => e.stopPropagation()}
-          >
-            <button
-              onClick={() => setSelectedVideo(null)}
-              className="absolute top-4 right-4 z-10 rounded-full bg-white/20 p-2 text-white hover:bg-white/40 transition"
-            >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-            <h2 className="absolute top-4 left-4 text-white font-semibold z-10 max-w-xs">{selectedVideo.title}</h2>
-            <iframe
-              width="100%"
-              height="100%"
-              src={`https://www.youtube.com/embed/${selectedVideo.videoId}?autoplay=1`}
-              title={selectedVideo.title}
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
-        </div>
-      )}
     </div>
   );
 }

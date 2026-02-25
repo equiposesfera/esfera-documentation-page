@@ -13,6 +13,11 @@ const navItems = [
     subItems: []
   },
   { 
+    href: "/docs/flujo-trabajo", 
+    label: "Flujo de trabajo",
+    subItems: []
+  },
+  { 
     href: "/docs/primeros-pasos", 
     label: "Primeros pasos",
     subItems: [
