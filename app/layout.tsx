@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import { DocsLayout } from "./DocsLayout";
 
 const displayFont = Playfair_Display({
   variable: "--font-display",
@@ -25,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={`${displayFont.variable} ${sansFont.variable} antialiased`}>
-        {children}
+        <DocsLayout>{children}</DocsLayout>
       </body>
     </html>
   );
