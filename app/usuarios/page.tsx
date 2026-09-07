@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Paso4Page() {
   const step = {
     id: "paso-4",

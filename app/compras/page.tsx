@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function ComprasPage() {
@@ -80,7 +79,7 @@ export default function ComprasPage() {
             <div className="flex-1">
               <h4 className="mb-1 font-semibold text-[#2d2d2d]">Pagar orden de compra</h4>
               <p className="text-sm text-gray-700">
-                En el listado de órdenes, das click en el estado y seleccionas "Pagar" para registrar
+                En el listado de órdenes, das click en el estado y seleccionas &quot;Pagar&quot; para registrar
                 el pago total o parcial de la orden.
               </p>
             </div>
@@ -238,4 +237,3 @@ export default function ComprasPage() {
     </div>
   );
 }
-

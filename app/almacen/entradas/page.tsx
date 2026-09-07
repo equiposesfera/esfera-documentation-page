@@ -180,7 +180,7 @@ export default function EntradasAlmacenPage() {
       <div className="rounded-2xl border-l-4 border-[#f59e0b] bg-orange-50 px-6 py-4">
         <h4 className="mb-3 font-semibold text-[#2d2d2d]">⚠️ Consideraciones importantes</h4>
         <ul className="list-inside list-disc space-y-1 text-sm text-gray-700">
-          <li>Solo puedes registrar entradas de órdenes de compra con estado "Pagada"</li>
+          <li>Solo puedes registrar entradas de órdenes de compra con estado &quot;Pagada&quot;</li>
           <li>La cantidad ingresada no puede exceder la cantidad ordenada</li>
           <li>Registra entradas inmediatamente al recibir los materiales</li>
           <li>Verifica calidad y cantidad antes de confirmar la entrada</li>
@@ -218,4 +218,3 @@ export default function EntradasAlmacenPage() {
     </div>
   );
 }
-

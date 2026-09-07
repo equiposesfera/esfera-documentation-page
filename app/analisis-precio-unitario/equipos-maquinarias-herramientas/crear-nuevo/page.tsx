@@ -39,8 +39,8 @@ export default function CrearNuevoEquiposMaqsHtasPage() {
             </div>
             <div className="flex-1">
               <h4 className="mb-1 font-semibold text-[#2d2d2d]">Accede al módulo de equipos</h4>
-              <p className="text-sm text-gray-700">
-                Desde el menú de Análisis de Precio Unitario, selecciona "Equipos, maquinarias y herramientas" y haz clic en "Crear nuevo".
+                <p className="text-sm text-gray-700">
+                Desde el menú de Análisis de Precio Unitario, selecciona &quot;Equipos, maquinarias y herramientas&quot; y haz clic en &quot;Crear nuevo&quot;.
               </p>
             </div>
           </div>
@@ -328,4 +328,3 @@ export default function CrearNuevoEquiposMaqsHtasPage() {
     </div>
   );
 }
-

@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function PermisosUsuariosPage() {
   return (
     <div className="space-y-8">
@@ -30,10 +28,10 @@ export default function PermisosUsuariosPage() {
         </h3>
         <div className="space-y-3">
           <div className="flex gap-4 rounded-2xl border border-gray-200 bg-gray-50 p-4">
-            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#4db8a8] text-sm font-bold text-white">1</span>
+              <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#4db8a8] text-sm font-bold text-white">1</span>
             <div>
               <h4 className="font-semibold text-[#2d2d2d]">Accede a la lista de usuarios</h4>
-              <p className="text-sm text-gray-700">Ve a la sección "Usuarios" dentro de tu proyecto</p>
+              <p className="text-sm text-gray-700">Ve a la sección &ldquo;Usuarios&rdquo; dentro de tu proyecto</p>
             </div>
           </div>
           <div className="flex gap-4 rounded-2xl border border-gray-200 bg-gray-50 p-4">

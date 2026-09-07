@@ -298,7 +298,7 @@ export default function UnidadesDeMedidaPage() {
                 1
               </span>
               <div>
-                <p className="text-sm font-medium text-gray-700">Accede a "Unidades de medida"</p>
+                <p className="text-sm font-medium text-gray-700">Accede a &quot;Unidades de medida&quot;</p>
               </div>
             </div>
             <div className="flex gap-3">
@@ -306,7 +306,7 @@ export default function UnidadesDeMedidaPage() {
                 2
               </span>
               <div>
-                <p className="text-sm font-medium text-gray-700">Haz clic en "Crear nueva unidad"</p>
+                <p className="text-sm font-medium text-gray-700">Haz clic en &quot;Crear nueva unidad&quot;</p>
               </div>
             </div>
             <div className="flex gap-3">
@@ -314,7 +314,7 @@ export default function UnidadesDeMedidaPage() {
                 3
               </span>
               <div>
-                <p className="text-sm font-medium text-gray-700">Completa el nombre (ej: "Pie lineal")</p>
+                <p className="text-sm font-medium text-gray-700">Completa el nombre (ej: &quot;Pie lineal&quot;)</p>
               </div>
             </div>
             <div className="flex gap-3">
@@ -322,7 +322,7 @@ export default function UnidadesDeMedidaPage() {
                 4
               </span>
               <div>
-                <p className="text-sm font-medium text-gray-700">Define el símbolo (ej: "pl")</p>
+                <p className="text-sm font-medium text-gray-700">Define el símbolo (ej: &quot;pl&quot;)</p>
               </div>
             </div>
             <div className="flex gap-3">
@@ -357,13 +357,13 @@ export default function UnidadesDeMedidaPage() {
           <div className="rounded-2xl border border-gray-200 bg-white p-5">
             <h4 className="mb-2 font-semibold text-[#2d2d2d]">📝 Nombre</h4>
             <p className="text-sm text-gray-700">
-              Nombre descriptivo de la unidad (ej: "Metro cúbico", "Hora Hombre", "Galón")
+              Nombre descriptivo de la unidad (ej: &quot;Metro cúbico&quot;, &quot;Hora Hombre&quot;, &quot;Galón&quot;)
             </p>
           </div>
           <div className="rounded-2xl border border-gray-200 bg-white p-5">
             <h4 className="mb-2 font-semibold text-[#2d2d2d]">🔤 Símbolo</h4>
             <p className="text-sm text-gray-700">
-              Abreviatura estándar (ej: "m³", "HH", "gal") - esto aparecerá en documentos
+              Abreviatura estándar (ej: &quot;m³&quot;, &quot;HH&quot;, &quot;gal&quot;) - esto aparecerá en documentos
             </p>
           </div>
           <div className="rounded-2xl border border-gray-200 bg-white p-5">
@@ -400,7 +400,7 @@ export default function UnidadesDeMedidaPage() {
           <li>Usa unidades estándar cuando sea posible para evitar confusiones</li>
           <li>Crea unidades personalizadas solo cuando sea realmente necesario</li>
           <li>Documenta las equivalencias de tus unidades personalizadas</li>
-          <li>Mantén consistencia: si usas "m" no uses "metro" en otros lugares</li>
+              <li>Mantén consistencia: si usas &quot;m&quot; no uses &quot;metro&quot; en otros lugares</li>
           <li>Revisa regularmente tu catálogo de unidades y elimina las que no uses</li>
           <li>Comunica a tu equipo qué unidades están disponibles para cada tipo de ítem</li>
           <li>Considera los estándares de tu región o industria al crear unidades nuevas</li>

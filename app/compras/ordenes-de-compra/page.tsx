@@ -124,7 +124,7 @@ export default function OrdenesDeCompraPage() {
               1
             </span>
             <p className="text-sm text-gray-700">
-              <strong>En el listado de órdenes</strong>, localiza la orden que deseas pagar (estado "Emitida" o "Parcialmente pagada")
+              <strong>En el listado de órdenes</strong>, localiza la orden que deseas pagar (estado &quot;Emitida&quot; o &quot;Parcialmente pagada&quot;)
             </p>
           </div>
           <div className="flex items-start gap-3">
@@ -132,7 +132,7 @@ export default function OrdenesDeCompraPage() {
               2
             </span>
             <p className="text-sm text-gray-700">
-              <strong>Haz click en el estado de la orden</strong> (columna "Estado")
+              <strong>Haz click en el estado de la orden</strong> (columna &quot;Estado&quot;)
             </p>
           </div>
           <div className="flex items-start gap-3">
@@ -140,7 +140,7 @@ export default function OrdenesDeCompraPage() {
               3
             </span>
             <p className="text-sm text-gray-700">
-              <strong>Selecciona "Pagar"</strong> en el menú que aparece
+              <strong>Selecciona &quot;Pagar&quot;</strong> en el menú que aparece
             </p>
           </div>
           <div className="flex items-start gap-3">
@@ -156,7 +156,7 @@ export default function OrdenesDeCompraPage() {
               5
             </span>
             <p className="text-sm text-gray-700">
-              Confirma el pago. La orden cambia a <strong>"Pagada"</strong> (total) o <strong>"Parcialmente pagada"</strong> (parcial)
+              Confirma el pago. La orden cambia a <strong>&quot;Pagada&quot;</strong> (total) o <strong>&quot;Parcialmente pagada&quot;</strong> (parcial)
             </p>
           </div>
         </div>
@@ -297,4 +297,3 @@ export default function OrdenesDeCompraPage() {
     </div>
   );
 }
-

@@ -73,8 +73,9 @@ export default function RecursosVisuales() {
       <div className={styles.grid}>
         {videos.map((video) => (
           <div key={video.videoId} style={{ cursor: 'pointer' }} onClick={() => handleVideoClick(video)}>
-            <div className={styles.videoCard}>
+              <div className={styles.videoCard}>
               <div className={styles.thumbnail}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={`https://img.youtube.com/vi/${video.videoId}/maxresdefault.jpg`}
                   alt={video.titulo}

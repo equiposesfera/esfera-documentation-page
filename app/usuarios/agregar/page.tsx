@@ -40,7 +40,7 @@ export default function InvitarUsuariosPage() {
           1. Acceder a la sección de usuarios
         </h3>
         <p className="text-base leading-7 text-gray-700">
-          En el menú de tu proyecto, dirígete a la sección "Usuarios" donde encontrarás la opción para agregar nuevos miembros del equipo.
+          En el menú de tu proyecto, dirígete a la sección &ldquo;Usuarios&rdquo; donde encontrarás la opción para agregar nuevos miembros del equipo.
         </p>
         <div className="overflow-hidden rounded-2xl border border-gray-200 shadow-sm">
           <Image

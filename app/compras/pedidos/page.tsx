@@ -120,7 +120,7 @@ export default function PedidosPage() {
               1
             </span>
             <p className="text-sm text-gray-700">
-              <strong>En el listado de pedidos</strong>, localiza el pedido que deseas autorizar (estado "Pendiente")
+              <strong>En el listado de pedidos</strong>, localiza el pedido que deseas autorizar (estado &quot;Pendiente&quot;)
             </p>
           </div>
           <div className="flex items-start gap-3">
@@ -128,7 +128,7 @@ export default function PedidosPage() {
               2
             </span>
             <p className="text-sm text-gray-700">
-              <strong>Haz click en el estado del pedido</strong> (columna "Estado")
+              <strong>Haz click en el estado del pedido</strong> (columna &quot;Estado&quot;)
             </p>
           </div>
           <div className="flex items-start gap-3">
@@ -136,7 +136,7 @@ export default function PedidosPage() {
               3
             </span>
             <p className="text-sm text-gray-700">
-              <strong>Selecciona "Autorizar"</strong> en el menú que aparece
+              <strong>Selecciona &quot;Autorizar&quot;</strong> en el menú que aparece
             </p>
           </div>
           <div className="flex items-start gap-3">
@@ -144,7 +144,7 @@ export default function PedidosPage() {
               4
             </span>
             <p className="text-sm text-gray-700">
-              El pedido cambia a estado <strong>"Autorizado"</strong> y queda disponible para cotizar
+              El pedido cambia a estado <strong>&quot;Autorizado&quot;</strong> y queda disponible para cotizar
             </p>
           </div>
         </div>
@@ -176,7 +176,7 @@ export default function PedidosPage() {
           <div className="rounded-2xl border border-gray-200 bg-white p-5">
             <h4 className="mb-2 font-semibold text-[#2d2d2d]">Título del pedido</h4>
             <p className="text-sm text-gray-700">
-              Nombre descriptivo de la solicitud (ej: "Materiales para fundación etapa 2").
+              Nombre descriptivo de la solicitud (ej: &quot;Materiales para fundación etapa 2&quot;).
             </p>
           </div>
           <div className="rounded-2xl border border-gray-200 bg-white p-5">
@@ -293,4 +293,3 @@ export default function PedidosPage() {
     </div>
   );
 }
-

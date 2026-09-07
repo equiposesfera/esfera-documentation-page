@@ -203,7 +203,7 @@ export default function AutorizacionesPage() {
       <div className="rounded-2xl border-l-4 border-[#f59e0b] bg-orange-50 px-6 py-4">
         <h4 className="mb-3 font-semibold text-[#2d2d2d]">⚠️ Consideraciones importantes</h4>
         <ul className="list-inside list-disc space-y-1 text-sm text-gray-700">
-          <li>Solo puedes autorizar cotizaciones con estado "Pendiente"</li>
+          <li>Solo puedes autorizar cotizaciones con estado &quot;Pendiente&quot;</li>
           <li>Debes seleccionar un proveedor para cada material antes de autorizar</li>
           <li>Verifica que el total esté dentro del presupuesto del proyecto</li>
           <li>Documenta siempre los criterios de selección en observaciones</li>
@@ -241,4 +241,3 @@ export default function AutorizacionesPage() {
     </div>
   );
 }
-

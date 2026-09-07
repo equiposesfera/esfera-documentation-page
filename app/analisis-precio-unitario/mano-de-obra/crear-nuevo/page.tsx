@@ -39,8 +39,8 @@ export default function CrearNuevoManoObraPage() {
             </div>
             <div className="flex-1">
               <h4 className="mb-1 font-semibold text-[#2d2d2d]">Accede al módulo de mano de obra</h4>
-              <p className="text-sm text-gray-700">
-                Desde el menú de Análisis de Precio Unitario, selecciona "Mano de obra" y haz clic en "Crear nuevo".
+                <p className="text-sm text-gray-700">
+                Desde el menú de Análisis de Precio Unitario, selecciona &quot;Mano de obra&quot; y haz clic en &quot;Crear nuevo&quot;.
               </p>
             </div>
           </div>
@@ -272,4 +272,3 @@ export default function CrearNuevoManoObraPage() {
     </div>
   );
 }
-

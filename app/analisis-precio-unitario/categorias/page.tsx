@@ -39,7 +39,7 @@ export default function CategoriasPage() {
           Las categorías son agrupaciones de primer nivel que clasifican todos tus insumos. Cada categoría contiene grupos relacionados y, a su vez, esos grupos contienen los insumos específicos (materiales, mano de obra, equipos).
         </p>
         <p className="text-sm text-gray-700">
-          Por ejemplo: "Materiales de construcción" es una categoría, que contiene grupos como "Cemento", "Agregados", "Acero", etc.
+          Por ejemplo: &quot;Materiales de construcción&quot; es una categoría, que contiene grupos como &quot;Cemento&quot;, &quot;Agregados&quot;, &quot;Acero&quot;, etc.
         </p>
       </div>
 
@@ -228,7 +228,7 @@ export default function CategoriasPage() {
                 1
               </span>
               <div>
-                <p className="text-sm font-medium text-gray-700">Accede a "Categorías"</p>
+                <p className="text-sm font-medium text-gray-700">Accede a &quot;Categorías&quot;</p>
               </div>
             </div>
             <div className="flex gap-3">
@@ -236,7 +236,7 @@ export default function CategoriasPage() {
                 2
               </span>
               <div>
-                <p className="text-sm font-medium text-gray-700">Haz clic en "Crear nueva categoría"</p>
+                <p className="text-sm font-medium text-gray-700">Haz clic en &quot;Crear nueva categoría&quot;</p>
               </div>
             </div>
             <div className="flex gap-3">
@@ -244,7 +244,7 @@ export default function CategoriasPage() {
                 3
               </span>
               <div>
-                <p className="text-sm font-medium text-gray-700">Ingresa el nombre de la categoría (ej: "Acabados")</p>
+                <p className="text-sm font-medium text-gray-700">Ingresa el nombre de la categoría (ej: &quot;Acabados&quot;)</p>
               </div>
             </div>
             <div className="flex gap-3">
@@ -287,7 +287,7 @@ export default function CategoriasPage() {
           <div className="rounded-2xl border border-gray-200 bg-white p-5">
             <h4 className="mb-2 font-semibold text-[#2d2d2d]">📝 Nombre</h4>
             <p className="text-sm text-gray-700">
-              Nombre descriptivo y único (ej: "Materiales de construcción", "Mano de obra especializada")
+              Nombre descriptivo y único (ej: &quot;Materiales de construcción&quot;, &quot;Mano de obra especializada&quot;)
             </p>
           </div>
           <div className="rounded-2xl border border-gray-200 bg-white p-5">

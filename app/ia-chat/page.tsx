@@ -79,24 +79,24 @@ export default function IAChatPage() {
                             <div>
                                 <strong className="text-[#4db8a8]">Consultar Avance y Presupuesto:</strong>
                                 <ul className="list-disc pl-5 mt-1">
-                                    <li>"¿Cuál es el resumen de avance general del proyecto hasta hoy?"</li>
-                                    <li>"Muéstrame el resumen de avance físico frente al presupuesto de todas las tareas en la etapa de 'Obra Gruesa'."</li>
-                                    <li>"¿Cuánto saldo económico nos queda por ejecutar respecto del presupuesto total aprobado?"</li>
+                                    <li>&ldquo;¿Cuál es el resumen de avance general del proyecto hasta hoy?&rdquo;</li>
+                                    <li>&ldquo;Muéstrame el resumen de avance físico frente al presupuesto de todas las tareas en la etapa de &apos;Obra Gruesa&apos;.&rdquo;</li>
+                                    <li>&ldquo;¿Cuánto saldo económico nos queda por ejecutar respecto del presupuesto total aprobado?&rdquo;</li>
                                 </ul>
                             </div>
                             <div>
                                 <strong className="text-[#4db8a8]">Consultar Inventario y Almacén:</strong>
                                 <ul className="list-disc pl-5 mt-1">
-                                    <li>"¿Cuántas bolsas de cemento tenemos actualmente en el stock del almacén?"</li>
-                                    <li>"Genera un reporte completo de todos los materiales e insumos que tenemos disponibles en almacén."</li>
-                                    <li>"¿Cuál es el saldo actual de 'Pintura Blanca' cruzando cuánto entró frente a cuánto ha salido?"</li>
+                                    <li>&ldquo;¿Cuántas bolsas de cemento tenemos actualmente en el stock del almacén?&rdquo;</li>
+                                    <li>&ldquo;Genera un reporte completo de todos los materiales e insumos que tenemos disponibles en almacén.&rdquo;</li>
+                                    <li>&ldquo;¿Cuál es el saldo actual de &apos;Pintura Blanca&apos; cruzando cuánto entró frente a cuánto ha salido?&rdquo;</li>
                                 </ul>
                             </div>
                             <div>
                                 <strong className="text-[#4db8a8]">Consultar Catálogo y APUs:</strong>
                                 <ul className="list-disc pl-5 mt-1">
-                                    <li>"¿Qué componentes (material, equipos, mano de obra) y con qué rendimientos incluye el ítem 'Elevadores de carga'?"</li>
-                                    <li>"Extrae el Análisis de Precio Unitario (APU) completo para la partida 'Muro de Ladrillo'."</li>
+                                    <li>&ldquo;¿Qué componentes (material, equipos, mano de obra) y con qué rendimientos incluye el ítem &apos;Elevadores de carga&apos;?&rdquo;</li>
+                                    <li>&ldquo;Extrae el Análisis de Precio Unitario (APU) completo para la partida &apos;Muro de Ladrillo&apos;.&rdquo;</li>
                                 </ul>
                             </div>
                         </div>
@@ -107,11 +107,11 @@ export default function IAChatPage() {
                         <div className="p-5 bg-[#fafcfb] space-y-4 text-sm text-gray-700">
                             <p>Puedes requerir peticiones complejas donde el asistente orquesta varias herramientas a la vez:</p>
                             <ul className="list-decimal pl-5 space-y-3">
-                                <li><strong>Auditoría de Compras vs Almacén:</strong> "Para la Orden de Compra OC-001, ¿cuánto de cemento se pidió originalmente al proveedor y compáramelo contra lo que falta que entre de manera física por portería según almacén?"</li>
-                                <li><strong>Productividad de Contratistas:</strong> "El albañil Juan Pérez ha avanzado arduos metros en 'Muros de Ladrillo'. Verifica cuánto se le honró financieramente en planillas de avance anteriores por este exacto ítem y dinos de cuánto es la brecha respecto del techo presupuestal."</li>
-                                <li><strong>Viabilidad Logística por APU:</strong> "Necesitamos empezar con la 'Pintura Interior' ya mismo. Mira el recetario del APU de esta actividad, entérate de qué insumos nos exige la norma y ve en tiempo real al Inventario para validar que nos sobran litros para repintar 100m2."</li>
-                                <li><strong>Logística Reactiva Just-In-Time:</strong> "Observa el APU de 'Zapatas Aisladas' y detecta su requerimiento estelar: Cemento. ¿Puedes cerciorarte en Compras si hoy, ahora mismo, contamos con una OC trancada en fase 'Aprobado' o en tránsito que venga llena de cemento?"</li>
-                                <li><strong>Terminación de Familias de Partidas:</strong> "Reúne sin falta todos los ítems clasificados al rubro de los 'CIMIENTOS'. Cruza cada uno de ellos a la página de avances logrados en el tiempo, a fin de asentar y certificar oficialmente que yacen terminados al 100%."</li>
+                                <li><strong>Auditoría de Compras vs Almacén:</strong> &ldquo;Para la Orden de Compra OC-001, ¿cuánto de cemento se pidió originalmente al proveedor y compáramelo contra lo que falta que entre de manera física por portería según almacén?&rdquo;</li>
+                                <li><strong>Productividad de Contratistas:</strong> &ldquo;El albañil Juan Pérez ha avanzado arduos metros en &apos;Muros de Ladrillo&apos;. Verifica cuánto se le honró financieramente en planillas de avance anteriores por este exacto ítem y dinos de cuánto es la brecha respecto del techo presupuestal.&rdquo;</li>
+                                <li><strong>Viabilidad Logística por APU:</strong> &ldquo;Necesitamos empezar con la &apos;Pintura Interior&apos; ya mismo. Mira el recetario del APU de esta actividad, entérate de qué insumos nos exige la norma y ve en tiempo real al Inventario para validar que nos sobran litros para repintar 100m2.&rdquo;</li>
+                                <li><strong>Logística Reactiva Just-In-Time:</strong> &ldquo;Observa el APU de &apos;Zapatas Aisladas&apos; y detecta su requerimiento estelar: Cemento. ¿Puedes cerciorarte en Compras si hoy, ahora mismo, contamos con una OC trancada en fase &apos;Aprobado&apos; o en tránsito que venga llena de cemento?&rdquo;</li>
+                                <li><strong>Terminación de Familias de Partidas:</strong> &ldquo;Reúne sin falta todos los ítems clasificados al rubro de los &apos;CIMIENTOS&apos;. Cruza cada uno de ellos a la página de avances logrados en el tiempo, a fin de asentar y certificar oficialmente que yacen terminados al 100%.&rdquo;</li>
                             </ul>
                         </div>
                     </div>

@@ -218,7 +218,7 @@ export default function CotizacionesPage() {
       <div className="rounded-2xl border-l-4 border-[#f59e0b] bg-orange-50 px-6 py-4">
         <h4 className="mb-3 font-semibold text-[#2d2d2d]">⚠️ Consideraciones importantes</h4>
         <ul className="list-inside list-disc space-y-1 text-sm text-gray-700">
-          <li>Solo puedes cotizar pedidos con estado "Autorizado"</li>
+          <li>Solo puedes cotizar pedidos con estado &quot;Autorizado&quot;</li>
           <li>Cada material puede tener múltiples proveedores</li>
           <li>Verifica que los precios incluyan o excluyan IVA según configuración</li>
           <li>Considera no solo precio, sino plazo de entrega y condiciones de pago</li>
@@ -256,4 +256,3 @@ export default function CotizacionesPage() {
     </div>
   );
 }
-

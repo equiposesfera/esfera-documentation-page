@@ -44,7 +44,7 @@ export default function ComputoPage() {
           Es decir: qué ítem se ejecutará en cada etapa (piso, sector, módulo) y en qué cantidad.
         </p>
         <p className="text-sm text-gray-700">
-          Por ejemplo, si tienes un ítem "Vaciado de concreto en pisos", en el cómputo especificarías: 
+          Por ejemplo, si tienes un ítem &ldquo;Vaciado de concreto en pisos&rdquo;, en el cómputo especificarías:
           Piso 1 → 150 m³, Piso 2 → 150 m³, Piso 3 → 150 m³, etc.
         </p>
       </div>
@@ -73,7 +73,7 @@ export default function ComputoPage() {
             <div className="flex-1">
               <h4 className="mb-1 font-semibold text-[#2d2d2d]">Accede al módulo de Cómputo</h4>
               <p className="text-sm text-gray-700">
-                En la sección de Presupuesto de tu proyecto, selecciona "Cómputo" para comenzar.
+                En la sección de Presupuesto de tu proyecto, selecciona &ldquo;Cómputo&rdquo; para comenzar.
               </p>
             </div>
           </div>
@@ -117,7 +117,7 @@ export default function ComputoPage() {
             <div className="flex-1">
               <h4 className="mb-1 font-semibold text-[#2d2d2d]">Continúa agregando ítems</h4>
               <p className="text-sm text-gray-700">
-                Repite este proceso para todos los ítems que requiera tu proyecto. Una vez completado, ve a "Presupuesto" para revisar totales.
+                Repite este proceso para todos los ítems que requiera tu proyecto. Una vez completado, ve a &ldquo;Presupuesto&rdquo; para revisar totales.
               </p>
             </div>
           </div>
@@ -335,4 +335,3 @@ export default function ComputoPage() {
     </div>
   );
 }
-

@@ -155,7 +155,7 @@ export default function CrearNuevoMaterialServicioPage() {
             <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#4db8a8] text-sm font-bold text-white">1</span>
             <div>
               <h4 className="font-semibold text-[#2d2d2d]">Accede al formulario</h4>
-              <p className="text-sm text-gray-700">Haz clic en "Crear nuevo" en la sección de Materiales y Servicios</p>
+              <p className="text-sm text-gray-700">Haz clic en &quot;Crear nuevo&quot; en la sección de Materiales y Servicios</p>
             </div>
           </div>
           <div className="flex gap-4 rounded-2xl border border-gray-200 bg-gray-50 p-4">

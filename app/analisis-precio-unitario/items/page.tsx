@@ -20,7 +20,7 @@ export default function ItemsAnalisisPage() {
       <div className="rounded-2xl border-l-4 border-[#4db8a8] bg-[#d4f1eb] px-6 py-4">
         <h4 className="mb-3 font-semibold text-[#2d2d2d]">📋 ¿Qué es un ítem de construcción?</h4>
         <p className="mb-3 text-sm text-gray-700">
-          Un ítem es una unidad de trabajo claramente definida con un precio unitario específico. Por ejemplo: "Vaciado de concreto f'c=210 kg/cm²" medido en m³, o "Instalación de puerta de madera" medido por unidad.
+          Un ítem es una unidad de trabajo claramente definida con un precio unitario específico. Por ejemplo: &quot;Vaciado de concreto f&apos;c=210 kg/cm²&quot; medido en m³, o &quot;Instalación de puerta de madera&quot; medido por unidad.
         </p>
         <p className="text-sm text-gray-700">
           Cada ítem incluye el desglose completo de todos los recursos necesarios (materiales, mano de obra, equipos) para realizar una unidad de medida de esa actividad.
@@ -309,7 +309,7 @@ export default function ItemsAnalisisPage() {
 
         {/* Ejemplo visual */}
         <div className="rounded-2xl border border-gray-200 bg-gray-50 p-6">
-          <h4 className="mb-4 font-semibold text-[#2d2d2d]">📊 Ejemplo: Ítem "Vaciado de concreto f'c=210 kg/cm²"</h4>
+          <h4 className="mb-4 font-semibold text-[#2d2d2d]">📊 Ejemplo: Ítem &quot;Vaciado de concreto f&apos;c=210 kg/cm²&quot;</h4>
           <div className="space-y-3">
             <div className="flex items-start gap-3 rounded-lg bg-white p-3">
               <span className="text-xl">📦</span>
@@ -365,4 +365,3 @@ export default function ItemsAnalisisPage() {
     </div>
   );
 }
-

@@ -39,8 +39,8 @@ export default function ImportarEquiposCSVPage() {
             </div>
             <div className="flex-1">
               <h4 className="mb-1 font-semibold text-[#2d2d2d]">Descarga la plantilla CSV</h4>
-              <p className="text-sm text-gray-700">
-                Desde el módulo de equipos, haz clic en "Importar CSV" y descarga la plantilla para asegurar el formato correcto.
+                <p className="text-sm text-gray-700">
+                Desde el módulo de equipos, haz clic en &quot;Importar CSV&quot; y descarga la plantilla para asegurar el formato correcto.
               </p>
             </div>
           </div>
@@ -306,4 +306,3 @@ HTA-COMP-01,Compresor de aire 185 CFM,Herramienta,Atlas Copco,XAS185,45.00,HM,US
     </div>
   );
 }
-

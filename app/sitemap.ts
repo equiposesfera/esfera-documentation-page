@@ -63,6 +63,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/cartera/inmuebles/",
     "/cartera/ventas/",
     "/cartera/galeria/",
+    "/prefactibilidad/",
   ];
 
   return routes.map((route) => ({

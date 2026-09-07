@@ -21,7 +21,7 @@ export default function OlvidoContrasenaPage() {
           1. Solicitar recuperación de contraseña
         </h3>
         <p className="text-base leading-7 text-gray-700">
-          En la página de inicio de sesión, haz clic en "¿Olvidaste tu contraseña?" e ingresa tu dirección de correo electrónico registrada.
+          En la página de inicio de sesión, haz clic en &ldquo;¿Olvidaste tu contraseña?&rdquo; e ingresa tu dirección de correo electrónico registrada.
         </p>
         <div className="overflow-hidden rounded-2xl border border-gray-200 shadow-sm">
           <Image

@@ -108,7 +108,7 @@ export default function GaleriaCarteraPage() {
       <div className="rounded-2xl border-l-4 border-[#4db8a8] bg-[#d4f1eb] px-6 py-4">
         <h4 className="mb-3 font-semibold text-[#2d2d2d]">💡 Buenas prácticas</h4>
         <ul className="list-inside list-disc space-y-1 text-sm text-gray-700">
-          <li>Organiza el contenido en álbumes nombrados de forma clara (ej: "Planos Dpto. 301", "Renders Exteriores")</li>
+          <li>Organiza el contenido en álbumes nombrados de forma clara (ej: &ldquo;Planos Dpto. 301&rdquo;, &ldquo;Renders Exteriores&rdquo;)</li>
           <li>Mantén actualizado el material de avance de obra para informar a los compradores</li>
           <li>Usa etiquetas para filtrar el contenido por unidad o tipo fácilmente</li>
           <li>Sube materiales en alta resolución para que el equipo comercial pueda usarlos en presentaciones</li>
@@ -133,4 +133,3 @@ export default function GaleriaCarteraPage() {
     </div>
   );
 }
-

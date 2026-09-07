@@ -39,8 +39,8 @@ export default function ImportarManoObraCSVPage() {
             </div>
             <div className="flex-1">
               <h4 className="mb-1 font-semibold text-[#2d2d2d]">Descarga la plantilla CSV</h4>
-              <p className="text-sm text-gray-700">
-                Desde el módulo de mano de obra, haz clic en "Importar CSV" y descarga la plantilla para asegurar el formato correcto.
+                <p className="text-sm text-gray-700">
+                Desde el módulo de mano de obra, haz clic en &quot;Importar CSV&quot; y descarga la plantilla para asegurar el formato correcto.
               </p>
             </div>
           </div>
@@ -249,4 +249,3 @@ CAP-01,Capataz general,Supervisión,48.00,HH,Bs,Supervisor,Experiencia +5 años`
     </div>
   );
 }
-

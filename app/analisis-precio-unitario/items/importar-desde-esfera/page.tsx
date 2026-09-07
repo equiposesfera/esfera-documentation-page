@@ -56,13 +56,13 @@ export default function ImportarDesdeEsferaPage() {
             <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#4db8a8] text-sm font-bold text-white">1</span>
             <div>
               <h4 className="font-semibold text-[#2d2d2d]">Accede al módulo de ítems</h4>
-              <p className="text-sm text-gray-700">Ve a "Análisis de precio unitario" → "Ítems" en tu proyecto</p>
+              <p className="text-sm text-gray-700">Ve a &quot;Análisis de precio unitario&quot; → &quot;Ítems&quot; en tu proyecto</p>
             </div>
           </div>
           <div className="flex gap-4 rounded-2xl border border-gray-200 bg-gray-50 p-4">
             <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#4db8a8] text-sm font-bold text-white">2</span>
             <div>
-              <h4 className="font-semibold text-[#2d2d2d]">Selecciona "Importar desde ESFERA"</h4>
+              <h4 className="font-semibold text-[#2d2d2d]">Selecciona &quot;Importar desde ESFERA&quot;</h4>
               <p className="text-sm text-gray-700">Haz clic en el botón de importación y elige esta opción</p>
             </div>
           </div>

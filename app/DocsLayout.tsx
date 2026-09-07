@@ -109,6 +109,11 @@ const navItems = [
     ]
   },
   {
+    href: "/prefactibilidad",
+    label: "Prefactibilidad",
+    subItems: []
+  },
+  {
     href: "/ia-chat",
     label: "Asistente IA",
     subItems: []

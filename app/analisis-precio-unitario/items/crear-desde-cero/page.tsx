@@ -6,7 +6,7 @@ export default function CrearDesdeCeroPage() {
       <div className="flex flex-wrap items-center gap-3 text-xs font-semibold uppercase tracking-[0.3em] text-gray-500">
         <span>Análisis de precio unitario</span>
         <span className="h-1 w-1 rounded-full bg-[#4db8a8]"></span>
-        <span>Actualizado Feb 2026</span>
+        <span>Actualizado Sep 2026</span>
       </div>
       <h2 className="text-3xl font-semibold text-[#2d2d2d] md:text-4xl" style={{ fontFamily: "var(--font-display)" }}>
         Crear desde cero
@@ -90,8 +90,43 @@ export default function CrearDesdeCeroPage() {
           <div className="flex gap-4 rounded-2xl border border-gray-200 bg-gray-50 p-4">
             <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#4db8a8] text-sm font-bold text-white">6</span>
             <div>
+              <h4 className="font-semibold text-[#2d2d2d]">Agregar costos complementarios</h4>
+              <p className="text-sm text-gray-700">Registra montos fijos o porcentajes sobre el costo directo</p>
+            </div>
+          </div>
+          <div className="flex gap-4 rounded-2xl border border-gray-200 bg-gray-50 p-4">
+            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#4db8a8] text-sm font-bold text-white">7</span>
+            <div>
               <h4 className="font-semibold text-[#2d2d2d]">Revisar y guardar</h4>
               <p className="text-sm text-gray-700">Verifica el precio total calculado y guarda tu ítem</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* 5. Costos complementarios */}
+      <div className="space-y-4">
+        <div className="rounded-2xl border-2 border-[#4db8a8] bg-white p-6">
+          <h4 className="mb-4 flex items-center gap-3 text-xl font-semibold text-[#2d2d2d]">
+            <span className="text-2xl">➕</span>
+            Costos complementarios
+          </h4>
+          <p className="mb-4 text-sm text-gray-700">
+            Añade conceptos que completan el precio del ítem, como comercialización, administración u otros cargos que no forman parte de materiales, mano de obra o equipos.
+          </p>
+          <div className="space-y-3">
+            <div className="rounded-lg bg-gray-50 p-4">
+              <h5 className="mb-2 font-semibold text-[#2d2d2d]">Formas de cálculo:</h5>
+              <ul className="list-inside list-disc space-y-1 text-sm text-gray-700">
+                <li><strong>Monto fijo:</strong> Ingresa directamente el importe del concepto</li>
+                <li><strong>Porcentaje:</strong> Se calcula sobre el costo directo de materiales, mano de obra y equipos</li>
+                <li><strong>Orden de cálculo:</strong> Define el orden en que se muestran los conceptos</li>
+              </ul>
+            </div>
+            <div className="rounded-lg bg-[#d4f1eb] p-4">
+              <p className="text-sm text-gray-700">
+                La sección muestra la modalidad, la base aplicada, el valor y el importe calculado. Puedes eliminar conceptos mientras el presupuesto no esté consolidado.
+              </p>
             </div>
           </div>
         </div>
@@ -131,7 +166,7 @@ export default function CrearDesdeCeroPage() {
             <div className="rounded-lg bg-[#d4f1eb] p-4">
               <p className="text-sm font-semibold text-[#2d2d2d]">Ejemplo:</p>
               <p className="mt-1 text-sm text-gray-700">
-                Para "Vaciado de concreto f'c=210 kg/cm²": Cemento (8.5 bolsas), Arena (0.5 m³), Piedra (0.7 m³), Agua (0.2 m³)
+                Para &quot;Vaciado de concreto f&apos;c=210 kg/cm²&quot;: Cemento (8.5 bolsas), Arena (0.5 m³), Piedra (0.7 m³), Agua (0.2 m³)
               </p>
             </div>
           </div>
@@ -161,7 +196,7 @@ export default function CrearDesdeCeroPage() {
             <div className="rounded-lg bg-[#d4f1eb] p-4">
               <p className="text-sm font-semibold text-[#2d2d2d]">Ejemplo:</p>
               <p className="mt-1 text-sm text-gray-700">
-                Para "Vaciado de concreto": Oficial albañil (0.5 hh), Ayudante (1.0 hh), Operario (0.3 hh)
+                Para &quot;Vaciado de concreto&quot;: Oficial albañil (0.5 hh), Ayudante (1.0 hh), Operario (0.3 hh)
               </p>
             </div>
           </div>
@@ -191,7 +226,7 @@ export default function CrearDesdeCeroPage() {
             <div className="rounded-lg bg-[#d4f1eb] p-4">
               <p className="text-sm font-semibold text-[#2d2d2d]">Ejemplo:</p>
               <p className="mt-1 text-sm text-gray-700">
-                Para "Excavación con maquinaria": Retroexcavadora (0.05 hm), Camión volquete (0.08 hm)
+                Para &quot;Excavación con maquinaria&quot;: Retroexcavadora (0.05 hm), Camión volquete (0.08 hm)
               </p>
             </div>
           </div>
@@ -249,6 +284,10 @@ export default function CrearDesdeCeroPage() {
           <p className="flex items-center gap-2">
             <span className="inline-block h-2 w-2 rounded-full bg-[#4db8a8]"></span>
             Costo de herramientas menores
+          </p>
+          <p className="flex items-center gap-2">
+            <span className="inline-block h-2 w-2 rounded-full bg-[#4db8a8]"></span>
+            Costos complementarios configurados como monto fijo o porcentaje del costo directo
           </p>
         </div>
       </div>

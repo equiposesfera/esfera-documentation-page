@@ -77,7 +77,7 @@ export default function ImportarDesdeExcelPage() {
             <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#4db8a8] text-sm font-bold text-white">4</span>
             <div>
               <h4 className="font-semibold text-[#2d2d2d]">Sube el archivo</h4>
-              <p className="text-sm text-gray-700">Selecciona "Importar desde Excel" y carga tu archivo</p>
+              <p className="text-sm text-gray-700">Selecciona &quot;Importar desde Excel&quot; y carga tu archivo</p>
             </div>
           </div>
           <div className="flex gap-4 rounded-2xl border border-gray-200 bg-gray-50 p-4">

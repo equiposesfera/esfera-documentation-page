@@ -18,7 +18,7 @@ export default function GruposPage() {
         <h4 className="mb-3 font-semibold text-[#2d2d2d]">📂 ¿Qué son los grupos?</h4>
         <p className="mb-3 text-sm text-gray-700">
           Los grupos son categorías de segundo nivel que agrupan insumos relacionados dentro de una categoría principal. 
-          Por ejemplo, dentro de la categoría "Materiales de construcción" podrías tener grupos como "Cemento y cal", "Agregados", "Acero", etc.
+          Por ejemplo, dentro de la categoría &quot;Materiales de construcción&quot; podrías tener grupos como &quot;Cemento y cal&quot;, &quot;Agregados&quot;, &quot;Acero&quot;, etc.
         </p>
         <p className="text-sm text-gray-700">
           Los grupos facilitan la organización jerárquica de tu catálogo y permiten búsquedas más rápidas y precisas.
@@ -203,7 +203,7 @@ export default function GruposPage() {
                 1
               </span>
               <div>
-                <p className="text-sm font-medium text-gray-700">Accede a "Grupos"</p>
+                <p className="text-sm font-medium text-gray-700">Accede a &quot;Grupos&quot;</p>
               </div>
             </div>
             <div className="flex gap-3">
@@ -211,7 +211,7 @@ export default function GruposPage() {
                 2
               </span>
               <div>
-                <p className="text-sm font-medium text-gray-700">Haz clic en "Crear nuevo grupo"</p>
+                <p className="text-sm font-medium text-gray-700">Haz clic en &quot;Crear nuevo grupo&quot;</p>
               </div>
             </div>
             <div className="flex gap-3">
@@ -219,7 +219,7 @@ export default function GruposPage() {
                 3
               </span>
               <div>
-                <p className="text-sm font-medium text-gray-700">Selecciona la categoría padre (ej: "Materiales de construcción")</p>
+                <p className="text-sm font-medium text-gray-700">Selecciona la categoría padre (ej: &quot;Materiales de construcción&quot;)</p>
               </div>
             </div>
             <div className="flex gap-3">
@@ -227,7 +227,7 @@ export default function GruposPage() {
                 4
               </span>
               <div>
-                <p className="text-sm font-medium text-gray-700">Ingresa el nombre del grupo (ej: "Agregados")</p>
+                <p className="text-sm font-medium text-gray-700">Ingresa el nombre del grupo (ej: &quot;Agregados&quot;)</p>
               </div>
             </div>
             <div className="flex gap-3">

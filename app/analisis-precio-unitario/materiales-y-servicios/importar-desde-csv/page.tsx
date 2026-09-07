@@ -78,7 +78,7 @@ export default function ImportarDesdeCsvPage() {
             <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#4db8a8] text-sm font-bold text-white">4</span>
             <div>
               <h4 className="font-semibold text-[#2d2d2d]">Sube el archivo</h4>
-              <p className="text-sm text-gray-700">Selecciona "Importar CSV" y carga tu archivo</p>
+              <p className="text-sm text-gray-700">Selecciona &quot;Importar CSV&quot; y carga tu archivo</p>
             </div>
           </div>
           <div className="flex gap-4 rounded-2xl border border-gray-200 bg-gray-50 p-4">
@@ -186,7 +186,7 @@ export default function ImportarDesdeCsvPage() {
             <li><strong>Separador:</strong> Usa coma (,) como separador de columnas</li>
             <li><strong>Codificación:</strong> Guarda el archivo en UTF-8 para evitar problemas con caracteres especiales</li>
             <li><strong>Decimales:</strong> Usa punto (.) para separar decimales, no coma</li>
-            <li><strong>Texto con comas:</strong> Encierra entre comillas ("") si el texto contiene comas</li>
+            <li><strong>Texto con comas:</strong> Encierra entre comillas (&quot;&quot;) si el texto contiene comas</li>
             <li><strong>Primera fila:</strong> Debe contener los nombres de las columnas (encabezados)</li>
             <li><strong>Códigos únicos:</strong> No repitas códigos, cada uno debe ser único</li>
           </ul>
@@ -219,7 +219,7 @@ LAB-001,Ensayo de compresión,Servicio,Unidad,45.00,Laboratorio,Lab JKL,Rotura a
         <ul className="list-inside list-disc space-y-1 text-sm text-gray-700">
           <li>Que todos los códigos sean únicos (no duplicados)</li>
           <li>Que las columnas obligatorias no estén vacías</li>
-          <li>Que el tipo sea "Material" o "Servicio"</li>
+            <li>Que el tipo sea &quot;Material&quot; o &quot;Servicio&quot;</li>
           <li>Que las unidades de medida existan en el sistema</li>
           <li>Que los precios sean valores numéricos válidos</li>
           <li>Que el formato del archivo sea correcto</li>

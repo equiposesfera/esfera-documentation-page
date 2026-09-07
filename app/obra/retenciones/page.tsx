@@ -201,19 +201,19 @@ export default function RetencionesPage() {
           Operaciones sobre retenciones
         </h3>
         <div className="grid gap-4 md:grid-cols-2">
-          <div className="rounded-2xl border-2 border-[#4db8a8] bg-[#d4f1eb] p-5">
-            <div className="mb-3 text-2xl">💰</div>
-            <h4 className="mb-2 font-semibold text-[#2d2d2d]">Pago total</h4>
-            <p className="text-sm text-gray-700">
-              Procesa el pago de toda la retención. El estado cambia a "Pagada" y queda registrado el comprobante.
+            <div className="rounded-2xl border-2 border-[#4db8a8] bg-[#d4f1eb] p-5">
+              <div className="mb-3 text-2xl">💰</div>
+              <h4 className="mb-2 font-semibold text-[#2d2d2d]">Pago total</h4>
+              <p className="text-sm text-gray-700">
+              Procesa el pago de toda la retención. El estado cambia a &ldquo;Pagada&rdquo; y queda registrado el comprobante.
             </p>
           </div>
 
-          <div className="rounded-2xl border-2 border-gray-200 bg-white p-5">
-            <div className="mb-3 text-2xl">💵</div>
-            <h4 className="mb-2 font-semibold text-[#2d2d2d]">Pago parcial</h4>
-            <p className="text-sm text-gray-700">
-              Paga parte del monto. La retención queda "Parcialmente pagada" con nuevo saldo a pagar.
+            <div className="rounded-2xl border-2 border-gray-200 bg-white p-5">
+              <div className="mb-3 text-2xl">💵</div>
+              <h4 className="mb-2 font-semibold text-[#2d2d2d]">Pago parcial</h4>
+              <p className="text-sm text-gray-700">
+              Paga parte del monto. La retención queda &ldquo;Parcialmente pagada&rdquo; con nuevo saldo a pagar.
             </p>
           </div>
         </div>
@@ -258,4 +258,3 @@ export default function RetencionesPage() {
     </div>
   );
 }
-

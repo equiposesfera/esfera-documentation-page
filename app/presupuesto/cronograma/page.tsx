@@ -6,7 +6,7 @@ export default function CronogramaPage() {
       <div className="flex flex-wrap items-center gap-3 text-xs font-semibold uppercase tracking-[0.3em] text-gray-500">
         <span>Presupuesto</span>
         <span className="h-1 w-1 rounded-full bg-[#4db8a8]"></span>
-        <span>Actualizado Feb 2026</span>
+        <span>Actualizado Sep 2026</span>
       </div>
       <h2 className="text-3xl font-semibold text-[#2d2d2d] md:text-4xl" style={{ fontFamily: "var(--font-display)" }}>
         Cronograma
@@ -27,6 +27,31 @@ export default function CronogramaPage() {
           se procesa el diagrama de Gantt, se genera la ruta crítica del proyecto y se obtienen los
           cronogramas físicos y financieros.
         </p>
+      </div>
+
+      <div className="space-y-4">
+        <h3 className="text-2xl font-semibold text-[#2d2d2d]" style={{ fontFamily: "var(--font-display)" }}>
+          Duración y dependencias
+        </h3>
+        <div className="grid gap-4 md:grid-cols-2">
+          <div className="rounded-2xl border border-gray-200 bg-white p-5">
+            <h4 className="mb-2 font-semibold text-[#2d2d2d]">Duración manual</h4>
+            <p className="text-sm text-gray-700">
+              Puedes definir una duración y dejar que ESFERA calcule la fecha final. El sistema conserva que la duración fue establecida manualmente al recalcular el cronograma.
+            </p>
+          </div>
+          <div className="rounded-2xl border border-gray-200 bg-white p-5">
+            <h4 className="mb-2 font-semibold text-[#2d2d2d]">Dependencias estructuradas</h4>
+            <p className="text-sm text-gray-700">
+              Cada segmento admite una o varias predecesoras, incluso de una etapa específica, con relaciones fin-inicio, inicio-inicio, fin-fin o inicio-fin y su desfase correspondiente.
+            </p>
+          </div>
+        </div>
+        <div className="rounded-2xl border-l-4 border-[#f59e0b] bg-orange-50 px-6 py-4">
+          <p className="text-sm text-gray-700">
+            Al editar en lote, revisa las predecesoras antes de guardar: una dependencia circular o una referencia incompleta impide calcular fechas coherentes.
+          </p>
+        </div>
       </div>
 
       <div className="space-y-4">
@@ -123,4 +148,3 @@ export default function CronogramaPage() {
     </div>
   );
 }
-
